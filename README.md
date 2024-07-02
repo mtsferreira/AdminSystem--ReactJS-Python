@@ -1,15 +1,15 @@
-Sistema web com função de login e navegação em abas, desenvolvido como projeto corporativo e publicado para uso dos clientes.
+### Sistema web com função de login e navegação em abas, desenvolvido como projeto corporativo e publicado para uso dos clientes.
 
 O projeto possui uma API criada com Python (Django) e uma interface criada com ReactJS e utilização da biblioteca MUI. Foi utilizado um banco em SQL Server para desenvolvimento das tabelas utilizadas na API.
 
 O projeto é acessado por um login com usuário e senha, com autenticação de um Bearer token para criar uma sessão de login.
 
-# Tela de Login:
+## Tela de Login:
 ![image](https://github.com/mtsferreira/AdminSystem--ReactJS-Python/assets/51208863/11d7c023-8f75-4983-97a1-7b8b9ae24535)
 
 Após o Login, o usuário é direcionado para a Home, que possui um menu lateral com menu e submenus das páginas.
 
-# Home:
+## Home:
 ![image](https://github.com/mtsferreira/AdminSystem--ReactJS-Python/assets/51208863/81f57e9d-9a2c-4cdf-bb83-a37adddf6dd3)
 
 
