@@ -1,0 +1,89 @@
+@keyframes slideIn {
+    0% {
+        right: -200%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes appearFromMiddle {
+    0% {
+        opacity: 0;
+        transform: translate(0%, -10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0%, 0%);
+    }
+}
+  
+
+/* Main */
+.main-box {
+    padding: 10px 20px 20px 20px;
+    border-radius: 4px;
+}
+
+.outline-box {
+    margin: 15px 5px 5px 20px;
+}
+
+.main-divider {
+    margin: 25px 5px !important;
+}
+
+
+/* Edit Tab */
+#edit-box {
+    animation: slideIn 0.5s ease forwards;
+}
+
+#scroll-filter {
+    display:'flex'; 
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    object-fit: contain;  
+    overflow-x: auto;
+}
+
+#edit-box.reverse {
+    animation: slideIn 0.5s ease reverse forwards;
+}
+
+.tab-button {
+    border-bottom: solid 2px transparent;
+    
+}
+
+.tab-grid {
+    margin: 0 15px;
+}
+
+
+/* Login Page */
+#login-box {
+    animation: appearFromMiddle 1s forwards;
+}
+
+/* Main-text-Field */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* Kanban */
+
+.scrollable-element  {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+    height: 535px;  
+}
+
+.scrollable-element::-webkit-scrollbar {
+    width: 5px;
+}
